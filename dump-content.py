@@ -128,7 +128,7 @@ for child in brains:
 	f = open(out, "w")
 	f.write(raw)
 	f.close()
-	docfile.write(title + "~~~~~" + hide + "~~~~~" + path + "\n")
+	docfile.write(title + "~~~~~" + hide + "~~~~~" + path + "~~~~~" + tipe + "\n")
 
     if ('File' == tipe):
 	contenttype = obj.getContentType()
